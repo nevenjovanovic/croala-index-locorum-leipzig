@@ -1,18 +1,18 @@
-# Otvorena filologija
+# Digital commenting on place names in early modern Latin texts
 
-[Neven Jovanović](orcid.org/0000-0002-9119-399X), Odsjek za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu
+[Neven Jovanović](orcid.org/0000-0002-9119-399X) and Alex Simrell, Department of Classical Philology, Faculty of Humanities and Social Sciences, University of Zagreb
 
 ![Moždana stanica i robot](img/roboneuron.jpeg)
 
-## Sadržaj
+## What?
 
-Izlaganje na [Informativnom danu "Otvorena znanost na Filozofskom"](http://www.ffzg.unizg.hr/international/d/Program-Otvorena-znanost-29.11.2016.-Filozofski-fakultet.pdf), utorak, 29. studenoga 2016.
+A presentation for the conference [Global Philology – Digital Infrastructure for Named Entities Data](http://www.dh.uni-leipzig.de/wo/events/global-philology-digital-infrastructure-for-named-entities-data/), Thursday, 12 January 2017, Leipzig.
 
 
-## Kako?
+## How?
 
-U ovom je repozitoriju građa za izlaganje, uz `reveal.js` softver potreban za prezentaciju.
+The slides for the presentation are made with the [reveal.js](https://github.com/hakimel/reveal.js/) HTML presentation framework.
 
-# Licenca
+# Licence
 
-Ovorena licenca [CC-BY](LICENSE.md)
+[CC-BY](LICENSE.md)
