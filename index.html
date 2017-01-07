@@ -28,6 +28,31 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style> 
+.cts1 {
+  color: #d33682;
+}
+.cts2 {
+  color: #859900;
+}
+.cts3 {
+  color: #cb4b16;
+}
+.cts4 {
+  color: #268bd2;
+}
+.cts5 {
+  color: #2aa198;
+}
+
+.large {
+    font-size: 3em;
+}
+</style>
+
+
+
+
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -56,20 +81,50 @@
 <section>
 <h1>The Plan</h1>
 <p><b>From a name to structured comments</b></p>
-<p><b>From structured comments to a name</b></p>
+<p><b>From a comment to names</b></p>
 <p><b>Conclusion: from combinations to knowledge</b></p>
 </section>
 
 <section>
+  <h1>From a name to comments</h1>
+</section>
+
+
+<section>
   <h1>Roma</h1>
+  <p class="fragment">urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div5.div4.p6.s1.w10</p>
 </section>
 
 <section>
   <h1>Cite Architecture</h1>
-  <p>Neel Smith and Christopher Blackwell, 2006-</p>
-  <p><a href="http://cite-architecture.github.io/about/">cite-architecture.github.io</a></p>
-  <p class="fragment">Each text segment and each annotation have their own URN</p>
-  <p class="fragment">The URNs are used to create an index</p>
+  <p>Neel Smith and Christopher Blackwell (2006, ongoing)<br/><a href="http://cite-architecture.github.io/about/">cite-architecture.github.io</a></p>
+  <h2 class="fragment">Each text segment and each annotation have their own, structured<br/>Uniform Resource Name</h2>
+</section>
+
+<section>
+  <h1>Roma</h1>
+  <p><span class="cts1">urn:cts:croala:</span><span class="cts2">crije01</span>.<span class="cts3">croala789994</span>.<span class="cts4">croala-lat2w</span>:<span class="cts5">body1.div5.div4.p6.s1.w10</span></p>
+</section>
+
+<section>
+  <h1>Roma</h1>
+  <p><a href="http://croala.ffzg.unizg.hr/basex/ctsp/urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div5.div4.p6.s1.w10">urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div5.div4.p6.s1.w10</a></p>
+</section>
+
+<section>
+  <h1>From a comment to names</h1>
+</section>
+
+<section>
+  <p>urn:cite:croala:loci.aetas09901</p>
+</section>
+
+<section>
+  <p><span class="cts1">urn:cite</span>:<span class="cts2">croala</span>:<span class="cts3">loci</span>.<span class="cts4">aetas09901</span></p>
+</section>
+
+<section>
+  <p><a href="http://croala.ffzg.unizg.hr/basex/cp-aetas-cite/urn:cite:croala:loci.aetas09901">urn:cite:croala:loci.aetas09901</a></p>
 </section>
 
 <section>
@@ -77,17 +132,21 @@
   </section>
 <section>
   <p>We have set out to annotate place names in selected <b>Croatian
-      Latin texts from the Renaissance</b>. We have qualified the
-    <b>placeness</b> of place names, described their linguistic form,
-     linked the words to things (actual or imaginary places), and
-     located the things in time (again actual or imaginary). We were
-     able to put it all together by connecting annotations to text
-    segments following the <b>CITE Architecture</b> concepts.</p><p>Digital
-     annotations, each of them brief, simple, and almost without usual
-     scholarly prose, thus become a <b>more structured and more manipulable
-      scholarly commentary</b>. Its real complexity appears when we start to
-    examine connections of these simple, <b>atomic</b> annotations in
-    their <b>molecular</b> configurations.</p>
+      Latin texts from the Renaissance</b>.<br/>These texts use named
+      entities from the antiquity to denote <b>places in later
+      periods</b> as well.</p>
+    <p class="fragment">Our comments qualify the
+      <b>placeness</b> of place names, describe their <b>linguistic
+      form</b>, link the words to <b>things</b> (real
+      or <b>imaginary</b> places), and locate the things
+      in <b>time</b> (which is culturally determined, and which be
+      real or imaginary too).</p>
+</section>
+<section>
+  <p>
+    We were able to put it all together by connecting annotations to
+    text segments via <b>URNs</b>.<br/>We used the <b>CITE
+    Architecture</b> as a blueprint for our infrastructure.</p>
 </section>
 
 
