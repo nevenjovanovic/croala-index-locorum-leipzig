@@ -2,7 +2,7 @@
 
 [Neven Jovanović](orcid.org/0000-0002-9119-399X) and Alex Simrell, Department of Classical Philology, Faculty of Humanities and Social Sciences, University of Zagreb
 
-![Moždana stanica i robot](img/roboneuron.jpeg)
+![Medvednica, Zagreb, Winter 2016](img/medvednica_sunce.jpg)
 
 ## What?
 
